@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+
+
+nav {
+    width: 100%;
+    height: 75px;
+    padding: 0px 70px;
+    line-height: 70px;
+    background-color: rgba(37, 37, 37, 0.562);
+    border-radius: 15px;
+}
+
+nav .logo {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+}
+
+nav ul {
+    float: right;
+
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+
+}
+
+nav li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover {
+    color: rgba(29, 48, 73, 0.705);
+    transition: all 0.5s ease;
+}
+
+.bg {
+    background-image: url('livinn.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg h1 {
+    color: black;
+    font-size: 7vh;
+    text-align: center;
+    padding-top: 16vh;
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.685);
+}
+
+.page2 {
+    background-color: rgba(13, 20, 22, 0.199);
+    width: 100%;
+    height:auto;
+   
+}
+
+
+#main-div h1{
+    text-align: center;
+    font-size: 6vh;
+    text-shadow: 0 3px 15px rgba(0, 0, 0, 0.63);
+   
+}
+
+
+
+
+#main-div .card {
+    border: 1px solid rgba(12, 11, 11, 0.377);
+    margin-top: 19vh;
+    width: 20%;
+    height: 40vh;
+    border-radius: 4vh;
+    display: inline-block;
+    margin-left: 14vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: all 0.5s;
+
+}
+
+.card p {
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.card1 {
+    background-image: url('kitchen.jpg');
+
+}
+
+.card2 {
+    background-image: url('backyard.jpg');
+}
+
+.card3 {
+    background-image: url('bedroom.jpg');
+}
+
+.card:hover {
+    transform: translateY(-10px);
+
+}
+
+.card h1 {
+    color: azure;
+    font-size: 27px;
+    text-shadow: 0 0 5px white;
+
+}
+
+.card p{
+    color: azure;
+    font-size: 15px;
+}
